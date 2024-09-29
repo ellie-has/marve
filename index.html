@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מרכז מרווה - פרכז פור</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html">
+                    <div class="logo-circle">
+                        <img src="logo/circular_logo_transparent_bg.png" alt="לוגו מרכז מרווה" class="logo-image">
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#home">דף הבית</a>
+                <a href="#services">שירותים</a>
+                <a href="#courses">קורסים</a>
+                <a href="#about">אודות</a>
+                <a href="#emotions">הרגשות שלי</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>מרכז מרווה<br>לטיפול רגשי לילדים</h1>
+        <p>רוצה להתחיל טיפול רגשי? הגעת למקום הנכון.</p>
+        <a href="#services" class="cta-button">לפרטים נוספים</a>
+    </section>
+
+    <section id="services" class="services">
+        <div class="service-card">
+            <img src="/api/placeholder/50/50" alt="CBT icon" class="service-icon">
+            <h3>טיפול CBT</h3>
+            <p>טיפול בשיטת CBT מאתגר דפוסי חשיבה והתנהגות מזיקים ומחליף אותם באחרים. זה טיפול ממוקד, קצר ויעיל, שבאמצעותו ניתן לשפר במידה רבה את איכות הרגשית ואורח החיים.</p>
+            <a href="#" class="cta-button" onclick="alert('מעבר למדריך CBT')">למדריך המלא</a>
+        </div>
+        <div class="service-card">
+            <img src="/api/placeholder/50/50" alt="NLP icon" class="service-icon">
+            <h3>טיפול NLP</h3>
+            <p>טיפול NLP (תכנות נוירו-לשוני) מתמקד בשינוי דפוסי חשיבה והתנהגות באמצעות טכניקות לשוניות וקוגניטיביות. שיטה זו עוזרת לילדים לפתח כישורי תקשורת טובים יותר ולשפר את הביטחון העצמי.</p>
+            <a href="#" class="cta-button" onclick="alert('מעבר למדריך NLP')">למדריך המלא</a>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>הקורסים שלנו</h2>
+        <div class="course-card">
+            <img src="/api/placeholder/50/50" alt="קבוצה רגשית מקדימה" class="course-icon">
+            <h3>קבוצה רגשית מקדימה</h3>
+            <p>מיועד לגילאי גן חובה וכיתה א'</p>
+            <ul>
+                <li>שיפור מיומנויות חברתיות</li>
+                <li>העמקת הקשרים עם חברים</li>
+                <li>פיתוח כלים רגשיים</li>
+                <li>חיזוק ביטחון עצמי והתמודדות עם אחרים</li>
+            </ul>
+            <p><strong>מתי זה קורה:</strong> ימי רביעי החל מ 7.8, 16:30 - 18:00</p>
+            <p><strong>מיקום:</strong> בקליניקה בתלמי אלעזר</p>
+            <a href="#" class="cta-button" onclick="showRegistrationForm()">הרשמה לקורס</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>אודות מורן דיין - מטפלת רגשית לילדים</h2>
+        <p>
+            שלום, אני מורן דיין, מטפלת רגשית מוסמכת עם התמחות ב-CBT (טיפול קוגניטיבי-התנהגותי) ו-NLP (תכנות נוירו-לשוני). 
+            במשך למעלה מעשור, אני עובדת עם ילדים בגילאי גן חובה עד כיתה ג', מסייעת להם להתמודד עם אתגרים רגשיים ולפתח כישורים חברתיים חיוניים.
+        </p>
+        <p>
+            הגישה שלי משלבת את היתרונות של CBT ו-NLP, מה שמאפשר לי להתאים את הטיפול לצרכים הייחודיים של כל ילד. 
+            אני מאמינה שכל ילד הוא עולם ומלואו, ושבאמצעות הכלים הנכונים, כל ילד יכול לפתח חוסן נפשי ולשגשג.
+        </p>
+        <p>
+            בנוסף לטיפולים פרטניים, אני מעבירה קורסים וסדנאות להורים ומחנכים, מתוך אמונה שסביבה תומכת היא מפתח להצלחת הטיפול.
+        </p>
+    </section>
+
+    <section id="emotions" class="emotions">
+        <h2>הרגשות שלי</h2>
+        <img src="logo/emotion-thermometers_page-0001.jpg" alt="מדחום רגשות" class="emotion-thermometer">
+        <p>
+            לפעמים קשה למצוא את המילים הנכונות כדי לתאר איך אנחנו מרגישים. זה בסדר גמור! 
+            הרבה פעמים, ילדים (וגם מבוגרים) מתקשים לומר במילים מה הם מרגישים, אבל יכולים להצביע על תמונה שמתארת את הרגשות שלהם.
+        </p>
+        <p>
+            התמונה למעלה מראה מדחומי רגשות שונים. כל מדחום מייצג רגש אחר ועוצמות שונות שלו. 
+            אתם מוזמנים להסתכל על התמונה ולחשוב - איזה מדחום הכי מתאים למה שאתם מרגישים עכשיו? ובאיזו עוצמה?
+        </p>
+        <p>
+            זכרו, אין רגשות "נכונים" או "לא נכונים". כל הרגשות שלנו הם חשובים ויש להם תפקיד. 
+            הצעד הראשון להבנת הרגשות שלנו הוא לזהות אותם, וזו דרך נהדרת להתחיל!
+        </p>
+    </section>
+
+    <div id="registrationForm" style="display: none;">
+        <h3>הרשמה לקורס</h3>
+        <form onsubmit="submitForm(event)">
+            <input type="text" placeholder="שם הילד" required>
+            <input type="text" placeholder="שם ההורה" required>
+            <input type="number" placeholder="גיל הילד" required>
+            <input type="tel" placeholder="טלפון" required>
+            <input type="email" placeholder="אימייל" required>
+            <button type="submit">שליחה</button>
+        </form>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
