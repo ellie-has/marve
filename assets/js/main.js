@@ -17,3 +17,7 @@ function submitForm(event) {
     alert('הטופס נשלח בהצלחה!');
     document.getElementById('registrationForm').style.display = 'none';
 }
+
+function openGoogleForm() {
+    window.open('https://forms.gle/c94dQuQpiH7CBnFi8', '_blank');
+}
